@@ -8,6 +8,7 @@
 
 #import "SDViewController.h"
 #import "SDProgressView.h"
+#import "SDDemoItemView.h"
 
 @interface SDViewController ()
 @property (nonatomic, strong) NSMutableArray *demoViews;
