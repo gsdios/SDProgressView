@@ -12,5 +12,7 @@
     
     // 如果需要直接退出
     [loop dismiss];
-    
-    ![](http://cdn.cocimg.com/bbs/attachment/Fid_19/19_441660_57ecfb07c257edf.gif) 
+  
+
+
+![](http://cdn.cocimg.com/bbs/attachment/Fid_19/19_441660_57ecfb07c257edf.gif)
