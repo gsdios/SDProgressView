@@ -7,13 +7,7 @@
 //
 
 #import "SDViewController.h"
-#import "SDPieProgressView.h"
-#import "SDLoopProgressView.h"
-#import "SDBallProgressView.h"
-#import "SDPieLoopProgressView.h"
-#import "SDTransparentPieProgressView.h"
-#import "SDRotationLoopProgressView.h"
-#import "SDDemoItemView.h"
+#import "SDProgressView.h"
 
 @interface SDViewController ()
 @property (nonatomic, strong) NSMutableArray *demoViews;
