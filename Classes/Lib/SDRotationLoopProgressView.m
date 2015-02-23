@@ -20,7 +20,8 @@ NSString * const SDRotationLoopProgressViewWaitingText = @"LOADING...";
 {
     self = [super initWithFrame:frame];
     if (self) {
-        [NSTimer scheduledTimerWithTimeInterval:0.03 target:self selector:@selector(changeAngle) userInfo:nil repeats:YES];
+        NSTimer *timer = [NSTimer scheduledTimerWithTimeInterval:0.03 target:self selector:@selector(changeAngle) userInfo:nil repeats:YES];
+        [[NSRunLoop mainRunLoop] addTimer:timer forMode:NSRunLoopCommonModes];
     }
     return self;
 }
@@ -48,7 +49,7 @@ NSString * const SDRotationLoopProgressViewWaitingText = @"LOADING...";
     
     // 加载时显示的文字
     NSMutableDictionary *attributes = [NSMutableDictionary dictionary];
-    attributes[NSFontAttributeName] = [UIFont boldSystemFontOfSize:13];
+    attributes[NSFontAttributeName] = [UIFont boldSystemFontOfSize:13 * SDProgressViewFontScale];
     attributes[NSForegroundColorAttributeName] = [UIColor lightGrayColor];
     [self setCenterProgressText:SDRotationLoopProgressViewWaitingText withAttributes:attributes];
 }

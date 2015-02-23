@@ -37,7 +37,7 @@
     // 进度数字
     NSString *progressStr = [NSString stringWithFormat:@"%.0f%s", self.progress * 100, "\%"];
     NSMutableDictionary *attributes = [NSMutableDictionary dictionary];
-    attributes[NSFontAttributeName] = [UIFont systemFontOfSize:18];
+    attributes[NSFontAttributeName] = [UIFont systemFontOfSize:18 * SDProgressViewFontScale];
     attributes[NSForegroundColorAttributeName] = [UIColor lightGrayColor];
     [self setCenterProgressText:progressStr withAttributes:attributes];
 }

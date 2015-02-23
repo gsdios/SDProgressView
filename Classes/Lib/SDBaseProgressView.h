@@ -12,6 +12,8 @@
 
 #define SDProgressViewItemMargin 10
 
+#define SDProgressViewFontScale (MIN(self.frame.size.width, self.frame.size.height) / 100.0)
+
 // 背景颜色
 #define SDProgressViewBackgroundColor SDColorMaker(240, 240, 240, 0.9)
 
