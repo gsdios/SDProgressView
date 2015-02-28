@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		99A0ED511A97227A00FA41C8 /* SDTransparentPieProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 99A0ED501A97227A00FA41C8 /* SDTransparentPieProgressView.m */; };
+		99A0ED571A972FEA00FA41C8 /* 005.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99A0ED561A972FEA00FA41C8 /* 005.jpg */; };
+		99A0ED5A1A9742D000FA41C8 /* SDRotationLoopProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 99A0ED591A9742D000FA41C8 /* SDRotationLoopProgressView.m */; };
+		99A0ED5D1A976BEF00FA41C8 /* SDPieLoopProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 99A0ED5C1A976BEF00FA41C8 /* SDPieLoopProgressView.m */; };
+		99A0ED601A97705800FA41C8 /* SDDemoItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 99A0ED5F1A97705800FA41C8 /* SDDemoItemView.m */; };
+		99C06F0C1A95D9BF0009ED8F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99C06F0B1A95D9BF0009ED8F /* Foundation.framework */; };
+		99C06F0E1A95D9BF0009ED8F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99C06F0D1A95D9BF0009ED8F /* CoreGraphics.framework */; };
+		99C06F101A95D9BF0009ED8F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99C06F0F1A95D9BF0009ED8F /* UIKit.framework */; };
+		99C06F161A95D9C00009ED8F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 99C06F141A95D9C00009ED8F /* InfoPlist.strings */; };
+		99C06F181A95D9C00009ED8F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C06F171A95D9C00009ED8F /* main.m */; };
+		99C06F1C1A95D9C00009ED8F /* SDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C06F1B1A95D9C00009ED8F /* SDAppDelegate.m */; };
+		99C06F1E1A95D9C00009ED8F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99C06F1D1A95D9C00009ED8F /* Images.xcassets */; };
+		99C06F251A95D9C00009ED8F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99C06F241A95D9C00009ED8F /* XCTest.framework */; };
+		99C06F261A95D9C00009ED8F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99C06F0B1A95D9BF0009ED8F /* Foundation.framework */; };
+		99C06F271A95D9C00009ED8F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99C06F0F1A95D9BF0009ED8F /* UIKit.framework */; };
+		99C06F2F1A95D9C00009ED8F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 99C06F2D1A95D9C00009ED8F /* InfoPlist.strings */; };
+		99C06F311A95D9C00009ED8F /* SDProgressViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C06F301A95D9C00009ED8F /* SDProgressViewTests.m */; };
+		99C06F401A95DA900009ED8F /* SDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C06F3F1A95DA900009ED8F /* SDViewController.m */; };
+		99C06F431A95DAE20009ED8F /* SDBaseProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C06F421A95DAE20009ED8F /* SDBaseProgressView.m */; };
+		99C06F461A95DB700009ED8F /* SDPieProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C06F451A95DB700009ED8F /* SDPieProgressView.m */; };
+		99C06F491A95E3620009ED8F /* SDLoopProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C06F481A95E3620009ED8F /* SDLoopProgressView.m */; };
+		99C06F4C1A95E4CD0009ED8F /* SDBallProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C06F4B1A95E4CD0009ED8F /* SDBallProgressView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		99C06F281A95D9C00009ED8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99C06F001A95D9BF0009ED8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99C06F071A95D9BF0009ED8F;
+			remoteInfo = SDProgressView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9952C4DE1A98A93300D94D72 /* SDProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDProgressView.h; sourceTree = "<group>"; };
+		99A0ED4F1A97227A00FA41C8 /* SDTransparentPieProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDTransparentPieProgressView.h; sourceTree = "<group>"; };
+		99A0ED501A97227A00FA41C8 /* SDTransparentPieProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDTransparentPieProgressView.m; sourceTree = "<group>"; };
+		99A0ED561A972FEA00FA41C8 /* 005.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 005.jpg; sourceTree = "<group>"; };
+		99A0ED581A9742D000FA41C8 /* SDRotationLoopProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDRotationLoopProgressView.h; sourceTree = "<group>"; };
+		99A0ED591A9742D000FA41C8 /* SDRotationLoopProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDRotationLoopProgressView.m; sourceTree = "<group>"; };
+		99A0ED5B1A976BEF00FA41C8 /* SDPieLoopProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDPieLoopProgressView.h; sourceTree = "<group>"; };
+		99A0ED5C1A976BEF00FA41C8 /* SDPieLoopProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDPieLoopProgressView.m; sourceTree = "<group>"; };
+		99A0ED5E1A97705800FA41C8 /* SDDemoItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDDemoItemView.h; sourceTree = "<group>"; };
+		99A0ED5F1A97705800FA41C8 /* SDDemoItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDDemoItemView.m; sourceTree = "<group>"; };
+		99C06F081A95D9BF0009ED8F /* SDProgressView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDProgressView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		99C06F0B1A95D9BF0009ED8F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		99C06F0D1A95D9BF0009ED8F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		99C06F0F1A95D9BF0009ED8F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		99C06F131A95D9C00009ED8F /* SDProgressView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SDProgressView-Info.plist"; sourceTree = "<group>"; };
+		99C06F151A95D9C00009ED8F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		99C06F171A95D9C00009ED8F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		99C06F191A95D9C00009ED8F /* SDProgressView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SDProgressView-Prefix.pch"; sourceTree = "<group>"; };
+		99C06F1A1A95D9C00009ED8F /* SDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDAppDelegate.h; sourceTree = "<group>"; };
+		99C06F1B1A95D9C00009ED8F /* SDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDAppDelegate.m; sourceTree = "<group>"; };
+		99C06F1D1A95D9C00009ED8F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		99C06F231A95D9C00009ED8F /* SDProgressViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SDProgressViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		99C06F241A95D9C00009ED8F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		99C06F2C1A95D9C00009ED8F /* SDProgressViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SDProgressViewTests-Info.plist"; sourceTree = "<group>"; };
+		99C06F2E1A95D9C00009ED8F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		99C06F301A95D9C00009ED8F /* SDProgressViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDProgressViewTests.m; sourceTree = "<group>"; };
+		99C06F3E1A95DA900009ED8F /* SDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDViewController.h; sourceTree = "<group>"; };
+		99C06F3F1A95DA900009ED8F /* SDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDViewController.m; sourceTree = "<group>"; };
+		99C06F411A95DAE20009ED8F /* SDBaseProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDBaseProgressView.h; sourceTree = "<group>"; };
+		99C06F421A95DAE20009ED8F /* SDBaseProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDBaseProgressView.m; sourceTree = "<group>"; };
+		99C06F441A95DB700009ED8F /* SDPieProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDPieProgressView.h; sourceTree = "<group>"; };
+		99C06F451A95DB700009ED8F /* SDPieProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDPieProgressView.m; sourceTree = "<group>"; };
+		99C06F471A95E3620009ED8F /* SDLoopProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDLoopProgressView.h; sourceTree = "<group>"; };
+		99C06F481A95E3620009ED8F /* SDLoopProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDLoopProgressView.m; sourceTree = "<group>"; };
+		99C06F4A1A95E4CD0009ED8F /* SDBallProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDBallProgressView.h; sourceTree = "<group>"; };
+		99C06F4B1A95E4CD0009ED8F /* SDBallProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDBallProgressView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99C06F051A95D9BF0009ED8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99C06F0E1A95D9BF0009ED8F /* CoreGraphics.framework in Frameworks */,
+				99C06F101A95D9BF0009ED8F /* UIKit.framework in Frameworks */,
+				99C06F0C1A95D9BF0009ED8F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99C06F201A95D9C00009ED8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99C06F251A95D9C00009ED8F /* XCTest.framework in Frameworks */,
+				99C06F271A95D9C00009ED8F /* UIKit.framework in Frameworks */,
+				99C06F261A95D9C00009ED8F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		99C06EFF1A95D9BF0009ED8F = {
+			isa = PBXGroup;
+			children = (
+				99C06F111A95D9BF0009ED8F /* SDProgressView */,
+				99C06F2A1A95D9C00009ED8F /* SDProgressViewTests */,
+				99C06F0A1A95D9BF0009ED8F /* Frameworks */,
+				99C06F091A95D9BF0009ED8F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		99C06F091A95D9BF0009ED8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99C06F081A95D9BF0009ED8F /* SDProgressView.app */,
+				99C06F231A95D9C00009ED8F /* SDProgressViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99C06F0A1A95D9BF0009ED8F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				99C06F0B1A95D9BF0009ED8F /* Foundation.framework */,
+				99C06F0D1A95D9BF0009ED8F /* CoreGraphics.framework */,
+				99C06F0F1A95D9BF0009ED8F /* UIKit.framework */,
+				99C06F241A95D9C00009ED8F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		99C06F111A95D9BF0009ED8F /* SDProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				99C06F3A1A95DA640009ED8F /* Controller */,
+				99C06F3B1A95DA640009ED8F /* Lib */,
+				99C06F3C1A95DA640009ED8F /* Model */,
+				99C06F3D1A95DA640009ED8F /* View */,
+				99C06F1A1A95D9C00009ED8F /* SDAppDelegate.h */,
+				99C06F1B1A95D9C00009ED8F /* SDAppDelegate.m */,
+				99C06F1D1A95D9C00009ED8F /* Images.xcassets */,
+				99C06F121A95D9BF0009ED8F /* Supporting Files */,
+			);
+			path = SDProgressView;
+			sourceTree = "<group>";
+		};
+		99C06F121A95D9BF0009ED8F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				99A0ED561A972FEA00FA41C8 /* 005.jpg */,
+				99C06F131A95D9C00009ED8F /* SDProgressView-Info.plist */,
+				99C06F141A95D9C00009ED8F /* InfoPlist.strings */,
+				99C06F171A95D9C00009ED8F /* main.m */,
+				99C06F191A95D9C00009ED8F /* SDProgressView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		99C06F2A1A95D9C00009ED8F /* SDProgressViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				99C06F301A95D9C00009ED8F /* SDProgressViewTests.m */,
+				99C06F2B1A95D9C00009ED8F /* Supporting Files */,
+			);
+			path = SDProgressViewTests;
+			sourceTree = "<group>";
+		};
+		99C06F2B1A95D9C00009ED8F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				99C06F2C1A95D9C00009ED8F /* SDProgressViewTests-Info.plist */,
+				99C06F2D1A95D9C00009ED8F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		99C06F3A1A95DA640009ED8F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				99C06F3E1A95DA900009ED8F /* SDViewController.h */,
+				99C06F3F1A95DA900009ED8F /* SDViewController.m */,
+			);
+			name = Controller;
+			path = Classes/Controller;
+			sourceTree = "<group>";
+		};
+		99C06F3B1A95DA640009ED8F /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				99C06F411A95DAE20009ED8F /* SDBaseProgressView.h */,
+				99C06F421A95DAE20009ED8F /* SDBaseProgressView.m */,
+				99C06F441A95DB700009ED8F /* SDPieProgressView.h */,
+				99C06F451A95DB700009ED8F /* SDPieProgressView.m */,
+				99C06F471A95E3620009ED8F /* SDLoopProgressView.h */,
+				99C06F481A95E3620009ED8F /* SDLoopProgressView.m */,
+				99C06F4A1A95E4CD0009ED8F /* SDBallProgressView.h */,
+				99C06F4B1A95E4CD0009ED8F /* SDBallProgressView.m */,
+				99A0ED4F1A97227A00FA41C8 /* SDTransparentPieProgressView.h */,
+				99A0ED501A97227A00FA41C8 /* SDTransparentPieProgressView.m */,
+				99A0ED581A9742D000FA41C8 /* SDRotationLoopProgressView.h */,
+				99A0ED591A9742D000FA41C8 /* SDRotationLoopProgressView.m */,
+				99A0ED5B1A976BEF00FA41C8 /* SDPieLoopProgressView.h */,
+				99A0ED5C1A976BEF00FA41C8 /* SDPieLoopProgressView.m */,
+				9952C4DE1A98A93300D94D72 /* SDProgressView.h */,
+			);
+			name = Lib;
+			path = Classes/Lib;
+			sourceTree = "<group>";
+		};
+		99C06F3C1A95DA640009ED8F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			path = Classes/Model;
+			sourceTree = "<group>";
+		};
+		99C06F3D1A95DA640009ED8F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				99A0ED5E1A97705800FA41C8 /* SDDemoItemView.h */,
+				99A0ED5F1A97705800FA41C8 /* SDDemoItemView.m */,
+			);
+			name = View;
+			path = Classes/View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		99C06F071A95D9BF0009ED8F /* SDProgressView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99C06F341A95D9C00009ED8F /* Build configuration list for PBXNativeTarget "SDProgressView" */;
+			buildPhases = (
+				99C06F041A95D9BF0009ED8F /* Sources */,
+				99C06F051A95D9BF0009ED8F /* Frameworks */,
+				99C06F061A95D9BF0009ED8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SDProgressView;
+			productName = SDProgressView;
+			productReference = 99C06F081A95D9BF0009ED8F /* SDProgressView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		99C06F221A95D9C00009ED8F /* SDProgressViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99C06F371A95D9C00009ED8F /* Build configuration list for PBXNativeTarget "SDProgressViewTests" */;
+			buildPhases = (
+				99C06F1F1A95D9C00009ED8F /* Sources */,
+				99C06F201A95D9C00009ED8F /* Frameworks */,
+				99C06F211A95D9C00009ED8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99C06F291A95D9C00009ED8F /* PBXTargetDependency */,
+			);
+			name = SDProgressViewTests;
+			productName = SDProgressViewTests;
+			productReference = 99C06F231A95D9C00009ED8F /* SDProgressViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99C06F001A95D9BF0009ED8F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SD;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = GSD;
+				TargetAttributes = {
+					99C06F221A95D9C00009ED8F = {
+						TestTargetID = 99C06F071A95D9BF0009ED8F;
+					};
+				};
+			};
+			buildConfigurationList = 99C06F031A95D9BF0009ED8F /* Build configuration list for PBXProject "SDProgressView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 99C06EFF1A95D9BF0009ED8F;
+			productRefGroup = 99C06F091A95D9BF0009ED8F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99C06F071A95D9BF0009ED8F /* SDProgressView */,
+				99C06F221A95D9C00009ED8F /* SDProgressViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99C06F061A95D9BF0009ED8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99C06F161A95D9C00009ED8F /* InfoPlist.strings in Resources */,
+				99C06F1E1A95D9C00009ED8F /* Images.xcassets in Resources */,
+				99A0ED571A972FEA00FA41C8 /* 005.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99C06F211A95D9C00009ED8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99C06F2F1A95D9C00009ED8F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99C06F041A95D9BF0009ED8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99A0ED5D1A976BEF00FA41C8 /* SDPieLoopProgressView.m in Sources */,
+				99C06F181A95D9C00009ED8F /* main.m in Sources */,
+				99C06F431A95DAE20009ED8F /* SDBaseProgressView.m in Sources */,
+				99C06F4C1A95E4CD0009ED8F /* SDBallProgressView.m in Sources */,
+				99C06F401A95DA900009ED8F /* SDViewController.m in Sources */,
+				99A0ED511A97227A00FA41C8 /* SDTransparentPieProgressView.m in Sources */,
+				99C06F1C1A95D9C00009ED8F /* SDAppDelegate.m in Sources */,
+				99C06F491A95E3620009ED8F /* SDLoopProgressView.m in Sources */,
+				99A0ED5A1A9742D000FA41C8 /* SDRotationLoopProgressView.m in Sources */,
+				99A0ED601A97705800FA41C8 /* SDDemoItemView.m in Sources */,
+				99C06F461A95DB700009ED8F /* SDPieProgressView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99C06F1F1A95D9C00009ED8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99C06F311A95D9C00009ED8F /* SDProgressViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		99C06F291A95D9C00009ED8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99C06F071A95D9BF0009ED8F /* SDProgressView */;
+			targetProxy = 99C06F281A95D9C00009ED8F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		99C06F141A95D9C00009ED8F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99C06F151A95D9C00009ED8F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		99C06F2D1A95D9C00009ED8F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99C06F2E1A95D9C00009ED8F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		99C06F321A95D9C00009ED8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		99C06F331A95D9C00009ED8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		99C06F351A95D9C00009ED8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SDProgressView/SDProgressView-Prefix.pch";
+				INFOPLIST_FILE = "SDProgressView/SDProgressView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		99C06F361A95D9C00009ED8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SDProgressView/SDProgressView-Prefix.pch";
+				INFOPLIST_FILE = "SDProgressView/SDProgressView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		99C06F381A95D9C00009ED8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SDProgressView.app/SDProgressView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SDProgressView/SDProgressView-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SDProgressViewTests/SDProgressViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		99C06F391A95D9C00009ED8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SDProgressView.app/SDProgressView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SDProgressView/SDProgressView-Prefix.pch";
+				INFOPLIST_FILE = "SDProgressViewTests/SDProgressViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99C06F031A95D9BF0009ED8F /* Build configuration list for PBXProject "SDProgressView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99C06F321A95D9C00009ED8F /* Debug */,
+				99C06F331A95D9C00009ED8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99C06F341A95D9C00009ED8F /* Build configuration list for PBXNativeTarget "SDProgressView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99C06F351A95D9C00009ED8F /* Debug */,
+				99C06F361A95D9C00009ED8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99C06F371A95D9C00009ED8F /* Build configuration list for PBXNativeTarget "SDProgressViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99C06F381A95D9C00009ED8F /* Debug */,
+				99C06F391A95D9C00009ED8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 99C06F001A95D9BF0009ED8F /* Project object */;
+}
