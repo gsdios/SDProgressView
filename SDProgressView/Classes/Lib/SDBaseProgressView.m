@@ -9,8 +9,9 @@
 #import "SDBaseProgressView.h"
 
 @implementation SDBaseProgressView
+@synthesize progress = _progress;
 
-- (id)initWithFrame:(CGRect)frame
+- (instancetype)initWithFrame:(CGRect)frame
 {
     if (self = [super initWithFrame:frame]) {
         self.backgroundColor = SDProgressViewBackgroundColor;
@@ -24,12 +25,9 @@
 {
     _progress = progress;
     
-    if (progress >= 1.0) {
-        [self removeFromSuperview];
-    } else {
+    if (progress < 1.0) {
         [self setNeedsDisplay];
     }
-    
 }
 
 - (void)setCenterProgressText:(NSString *)text withAttributes:(NSDictionary *)attributes
@@ -37,7 +35,6 @@
     CGFloat xCenter = self.frame.size.width * 0.5;
     CGFloat yCenter = self.frame.size.height * 0.5;
     
-    // 判断系统版本
     if ([[UIDevice currentDevice].systemVersion floatValue] >= 7.0) {
         CGSize strSize = [text sizeWithAttributes:attributes];
         CGFloat strX = xCenter - strSize.width * 0.5;
@@ -59,20 +56,17 @@
         
         [attrStr drawAtPoint:CGPointMake(strX, strY)];
     }
-    
-    
-    
 }
 
-// 清除指示器
 - (void)dismiss
 {
     self.progress = 1.0;
+    [self removeFromSuperview];
 }
 
-+ (id)progressView
++ (instancetype)progressView
 {
-    return [[self alloc] init];
+    return [self new];
 }
 
 @end
